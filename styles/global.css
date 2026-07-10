@@ -1,0 +1,62 @@
+:root {
+  /* Produto */
+  --brand-color-primary: #F7B733;
+  --brand-color-secondary: #FC4A1A;
+  --brand-gradient: linear-gradient(90deg, var(--brand-color-secondary), var(--brand-color-primary));
+
+  /* Base */
+  --background-color: #09090B;
+  --surface-color: #18181B;
+  --stroke-color: #27272A;
+  --text-color-secondary: #A1A1AA;
+  --text-color-primary: #F4F4F5;
+
+  /* Tipografia (shorthand) */
+  --font-family-inter: "Inter", sans-serif;
+  --font-family-paytone: "Paytone One", sans-serif;
+
+  /* Desktop */
+  --font-h1-desktop: 800 4rem/1.2 var(--font-family-inter);
+  --font-h2-desktop: 800 3rem/1.2 var(--font-family-inter);
+  --font-h3-desktop: 800 2rem/1.2 var(--font-family-inter);
+  --font-logo-desktop: 400 1.4rem/1.2 var(--font-family-paytone);
+  --font-span-desktop: 500 .875rem/1 var(--font-family-inter);
+  --font-paragraph-desktop: 400 1rem/1.6 var(--font-family-inter);
+}
+
+/* Defaults */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background-color: var(--background-color);
+  color: var(--text-color-primary);
+}
+
+h1 {
+  font: var(--font-h1-desktop);
+}
+
+h2 {
+  font: var(--font-h2-desktop);
+}
+
+h3 {
+  font: var(--font-h3-desktop);
+}
+
+span {
+  font: var(--font-span-desktop);
+}
+
+p {
+  font: var(--font-paragraph-desktop);
+}
+
+a {
+  text-decoration: none;
+}

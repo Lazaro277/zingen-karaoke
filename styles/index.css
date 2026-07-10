@@ -1,2 +1,41 @@
 @import url(global.css);
-@import url(utiles.css);
+@import url(utilities.css);
+@import url(components.css);
+@import url(layout.css);
+@import url(sections.css);
+
+header {
+  display: flex;
+  padding: 24px;
+
+  a {
+    font: var(--font-logo-desktop);
+    color: var(--text-color-primary);
+  }
+
+  nav {
+    margin-left: auto;
+
+    ul {
+      display: flex;
+      gap: 30px;
+
+      li {
+        list-style-type: none;
+
+        a:not(.button) {
+          font: var(--font-paragraph-desktop);
+          color: var(--text-color-secondary);
+
+          &:hover {
+            background-image: var(--brand-gradient);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            color: transparent;
+          }
+        }
+      }
+    }
+  }
+}
