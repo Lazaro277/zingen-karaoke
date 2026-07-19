@@ -1,0 +1,20 @@
+#hero {
+  text-align: center;
+  margin-top: 70px;
+
+  h1 {
+    margin-block: 10px;
+  }
+
+  p {
+    font-size: 45px;
+    margin-bottom: 40px;
+    color: var(--text-color-secondary);
+  }
+
+  div {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+}

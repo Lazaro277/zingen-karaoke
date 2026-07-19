@@ -1,15 +1,16 @@
 @import url(global.css);
 @import url(utilities.css);
 @import url(components.css);
-@import url(layout.css);
 @import url(sections.css);
+@import url(layout.css);
 
 header {
   display: flex;
-  padding: 24px;
+  padding: 1.5rem;
+  align-items: center;
 
   a {
-    font: var(--font-logo-desktop);
+    font: var(--font-logo);
     color: var(--text-color-primary);
   }
 
@@ -18,13 +19,18 @@ header {
 
     ul {
       display: flex;
-      gap: 30px;
+      gap: 1.875rem;
+      align-items: center;
 
       li {
         list-style-type: none;
 
-        a:not(.button) {
-          font: var(--font-paragraph-desktop);
+        a {
+          font: var(--font-paragraph);
+        }
+
+        a:not(div.button *) {
+          font: var(--font-paragraph);
           color: var(--text-color-secondary);
 
           &:hover {

@@ -16,12 +16,12 @@
   --font-family-paytone: "Paytone One", sans-serif;
 
   /* Desktop */
-  --font-h1-desktop: 800 4rem/1.2 var(--font-family-inter);
-  --font-h2-desktop: 800 3rem/1.2 var(--font-family-inter);
-  --font-h3-desktop: 800 2rem/1.2 var(--font-family-inter);
-  --font-logo-desktop: 400 1.4rem/1.2 var(--font-family-paytone);
-  --font-span-desktop: 500 .875rem/1 var(--font-family-inter);
-  --font-paragraph-desktop: 400 1rem/1.6 var(--font-family-inter);
+  --font-h1: 800 4rem/1.2 var(--font-family-inter);
+  --font-h2: 800 3rem/1.2 var(--font-family-inter);
+  --font-h3: 800 2rem/1.2 var(--font-family-inter);
+  --font-logo: 400 2rem/1.2 var(--font-family-paytone);
+  --font-span: 500 .875rem/1 var(--font-family-inter);
+  --font-paragraph: 400 1rem/1.6 var(--font-family-inter);
 }
 
 /* Defaults */
@@ -38,23 +38,23 @@ body {
 }
 
 h1 {
-  font: var(--font-h1-desktop);
+  font: var(--font-h1);
 }
 
 h2 {
-  font: var(--font-h2-desktop);
+  font: var(--font-h2);
 }
 
 h3 {
-  font: var(--font-h3-desktop);
+  font: var(--font-h3);
 }
 
 span {
-  font: var(--font-span-desktop);
+  font: var(--font-span);
 }
 
 p {
-  font: var(--font-paragraph-desktop);
+  font: var(--font-paragraph);
 }
 
 a {
