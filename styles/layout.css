@@ -35,4 +35,23 @@
       }
     }
   }
+
+  #about {
+    display: block;
+    text-align: center;
+
+    div {
+      text-align: start;
+
+      h2 {
+        font-size: 1.5rem;
+      }
+    }
+
+    img {
+      margin: 0;
+      margin-bottom: 2.875rem;
+      width: 80%;
+    }
+  }
 }

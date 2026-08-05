@@ -1,6 +1,7 @@
 #hero {
   text-align: center;
   margin-top: 70px;
+  padding-inline: 32px;
 
   h1 {
     margin-block: 10px;
@@ -16,5 +17,110 @@
     display: flex;
     justify-content: center;
     gap: 15px;
+  }
+}
+
+#about {
+  margin-top: 200px;
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: var(--stroke-color);
+  padding-inline: 32px;
+
+  img {
+    width: 50%;
+    margin-left: 60px;
+  }
+
+  div {
+    align-content: center;
+    width: 100%;
+
+    p:nth-child(1) {
+      text-transform: uppercase;
+      color: var(--brand-color-primary);
+    }
+
+    h2 {
+      margin-block: 15px;
+    }
+
+    p {
+      color: var(--text-color-secondary);
+    }
+  }
+}
+
+#features {
+  padding: 4rem 2rem;
+  gap: 2rem;
+
+  .card-features {
+    background-color: var(--stroke-color);
+    border: 1px solid #535359;
+    border-radius: 25px;
+    padding: 32px;
+    display: flex;
+    overflow: hidden;
+  }
+
+  #img-cell-1,
+  #img-cell-2,
+  #img-cell-3 {
+    width: 300px;
+    margin-top: -300px;
+    margin-inline: 15px 0;
+  }
+
+  #img-cell-2 {
+    margin-inline: 0 15px;
+  }
+
+  #img-cell-3 {
+    margin-top: 0;
+    margin-bottom: -300px;
+  }
+
+  h3 {
+    margin-block: 10px;
+  }
+
+  p {
+    color: var(--text-color-secondary);
+  }
+
+  img:has(+h3) {
+    width: 2.5rem;
+  }
+}
+
+#princing {
+  padding: 50px 32px;
+  text-align: center;
+
+  h4 {
+    text-transform: uppercase;
+    color: var(--brand-color-primary);
+    font: var(--font-span);
+  }
+
+  h2 {
+    margin: 30px 300px;
+  }
+
+  .grid-plans {
+    gap: 30px;
+  }
+
+  .card-plan {
+    text-align: start;
+    background-color: var(--stroke-color);
+    border: 1px solid #535359;
+    border-radius: 25px;
+    padding: 32px;
+
+    h2 {
+      margin: 0;
+    }
   }
 }

@@ -6,8 +6,8 @@
 
 header {
   display: flex;
-  padding: 1.5rem;
   align-items: center;
+  padding: 32px;
 
   a {
     font: var(--font-logo);
