@@ -36,6 +36,7 @@
 
 .button-outiline {
   padding: 2px;
+  display: flex;
 
   a {
     background: var(--background-color);
@@ -57,5 +58,11 @@
         transition: all .3s ease-in-out;
       }
     }
+  }
+}
+
+.button-bg-stroke {
+  a {
+    background: var(--stroke-color);
   }
 }
