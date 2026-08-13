@@ -36,9 +36,23 @@
     }
   }
 
+  main {
+    position: relative;
+    overflow-x: hidden;
+
+    &::before {
+      left: calc(50% - (200% / 2));
+      width: 200%;
+      height: 500px;
+      top: 500px;
+    }
+  }
+
   #about {
     display: block;
     text-align: center;
+    margin-top: 250px;
+    padding-bottom: 50px;
 
     div {
       text-align: start;
@@ -49,9 +63,77 @@
     }
 
     img {
-      margin: 0;
-      margin-bottom: 2.875rem;
-      width: 80%;
+      margin: -22rem 0 2.875rem 0;
+      width: 100%;
     }
   }
+
+  #features {
+
+    .card-features {
+      grid-column: span 12;
+    }
+
+    #img-cell-1,
+    #img-cell-2,
+    #img-cell-3 {
+      display: none;
+    }
+  }
+
+  #princing {
+
+    h2 {
+      margin-inline: 0;
+      margin-bottom: 50px;
+      font-size: 32px;
+    }
+
+    .grid-plans {
+      gap: 0;
+      row-gap: 30px;
+      width: 100%;
+    }
+
+    .card-plan {
+      grid-column: span 12;
+      padding: 32px;
+    }
+
+    .card-plan-special {
+      margin-block: 0;
+    }
+  }
+
+  #download {
+    margin-block: 10px 70px;
+    display: block;
+    text-align: end;
+
+    div:first-child {
+      padding: 32px;
+      text-align: start;
+    }
+
+    .button-download {
+      margin-bottom: 20px;
+    }
+
+    img:last-child {
+      width: 50%;
+    }
+  }
+
+  footer {
+    padding-inline: 52px;
+    row-gap: 40px;
+
+    ul,
+    a,
+    div,
+    p {
+      grid-column: span 12 !important;
+    }
+  }
+
 }
