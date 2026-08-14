@@ -171,6 +171,17 @@
       grid-column: span 4 !important;
     }
   }
+
+  main {
+
+    /* shadow gradient section about */
+    &::before {
+      top: 500px;
+      left: calc(50% - (150% / 2));
+      width: 150%;
+      height: 700px;
+    }
+  }
 }
 
 @media (min-width: 769px) and (max-width: 1200px) {
@@ -268,7 +279,7 @@
 @media (min-width: 1200px) {
   #download {
     img:last-child {
-      width: 50%;
+      width: 30%;
       margin-top: -100px;
     }
   }
