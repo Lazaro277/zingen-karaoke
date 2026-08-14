@@ -69,6 +69,7 @@
   }
 
   #features {
+    column-gap: 0;
 
     .card-features {
       grid-column: span 12;
@@ -101,6 +102,7 @@
     }
 
     .card-plan-special {
+      padding-top: 60px;
       margin-block: 0;
     }
   }
@@ -121,6 +123,8 @@
 
     img:last-child {
       width: 50%;
+      margin-right: -30px;
+      margin-bottom: -4px;
     }
   }
 
