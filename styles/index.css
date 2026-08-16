@@ -18,7 +18,7 @@ header {
   nav {
     margin-left: auto;
 
-    ul {
+    ul[role="list"] {
       display: flex;
       gap: 1.875rem;
       align-items: center;

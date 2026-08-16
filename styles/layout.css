@@ -1,7 +1,7 @@
 @media (max-width: 768px) {
   header {
     nav {
-      ul {
+      ul[role="list"] {
         display: flex;
         gap: 0px !important;
 
@@ -130,7 +130,7 @@
       justify-content: center;
     }
 
-    ul,
+    ul[role="list"],
     a,
     div,
     p {
@@ -166,7 +166,7 @@
   }
 
   footer {
-    ul {
+    ul[role="list"] {
       text-align: start;
       grid-column: span 4 !important;
     }
@@ -290,7 +290,7 @@
       grid-column: span 3;
     }
 
-    ul {
+    ul[role="list"] {
       grid-column: span 3 !important;
     }
   }

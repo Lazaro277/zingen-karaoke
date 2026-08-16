@@ -29,6 +29,9 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 html,
@@ -36,6 +39,8 @@ body {
   background-color: var(--background-color);
   color: var(--text-color-primary);
   overflow-x: hidden;
+
+  scroll-behavior: smooth;
 }
 
 main {
